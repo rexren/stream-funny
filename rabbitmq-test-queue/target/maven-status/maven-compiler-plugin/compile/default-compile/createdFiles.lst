@@ -1,0 +1,4 @@
+io\github\rexren\rabbitmq\queue\Application.class
+io\github\rexren\rabbitmq\queue\Receiver.class
+io\github\rexren\rabbitmq\queue\AmqpConfiguration.class
+io\github\rexren\rabbitmq\queue\Sender.class
