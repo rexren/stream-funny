@@ -5,29 +5,38 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.github.rexren</groupId>
-    <artifactId>spring-cloud-stream</artifactId>
+    <artifactId>spring-amqp-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-    <parent>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-starter-parent</artifactId>
-        <version>Dalston.SR5</version>
-        <relativePath/>
-    </parent>
+    <name>stream-funny</name>
+    <description>Rabbit MQ test</description>
 
-    <dependencies>
-        <!-- Spring boot 测试用 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <!-- Stream rabbit 依赖中包含 binder-rabbit,所以只需导入此依赖即可 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-stream-rabbit</artifactId>
-            <version>2.0.0.RELEASE</version>
-        </dependency>
-    </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <maven.version>3.2.1</maven.version>
+        <spring-boot.version>1.5.11.RELEASE</spring-boot.version>
+    </properties>
+
+    <modules>
+        <module>rabbitmq-test-queue</module>
+        <!--<module>rabbitmq-test-direct</module>-->
+        <!--<module>rabbitmq-test-topic</module>-->
+
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <!--<dependency>-->
+                <!--<groupId>org.springframework.cloud</groupId>-->
+                <!--<artifactId>spring-cloud-starter-parent</artifactId>-->
+                <!--<version>Dalston.SR5</version>-->
+                <!--<type>pom</type>-->
+                <!--<scope>import</scope>-->
+            <!--</dependency>-->
+        </dependencies>
+    </dependencyManagement>
 
 </project>
