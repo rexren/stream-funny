@@ -22,7 +22,7 @@
 
     <modules>
         <module>rabbitmq-test-queue</module>
-        <!--<module>rabbitmq-test-direct</module>-->
+        <module>rabbitmq-test-direct</module>
         <!--<module>rabbitmq-test-topic</module>-->
 
     </modules>

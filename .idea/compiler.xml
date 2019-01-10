@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbitmq-test-queue" />
+        <module name="rabbitmq-test-queue (1)" />
       </profile>
     </annotationProcessing>
   </component>

@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935a1144-f7a3-493b-b3a9-691106d75044" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test-queue/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/AmqpConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitMqQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-test-queue/target/" />
+    <ignored path="$PROJECT_DIR$/rabbitmq-test-direct/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,43 +22,47 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-cloud-stream" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+              <folding>
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/pom.xml">
+      <file leaf-file-name="AmqpTemplate.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/core/AmqpTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="184">
+              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java">
+      <file leaf-file-name="DirectExchangeApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/DirectExchangeApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogEntry.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/LogEntry.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -63,8 +70,8 @@
       <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="47">
+              <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,13 +79,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RabbitQueueTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java">
+      <file leaf-file-name="RabbitConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="426">
+              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1019#1020#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,7 +96,7 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,23 +104,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sender.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java">
+      <file leaf-file-name="RabbitQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="294">
+              <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/test/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="RabbitDirectTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/test/java/io/github/rexren/rabbitmq/queue/RabbitDirectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Receiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="11" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,6 +147,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bind</find>
+      <find>topic</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -138,16 +168,26 @@
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmu/queue/Sender.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmu/queue/Receiver.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmu/queue/test/RabbitMqQueueTest.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitMqQueueTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/AmqpConfiguration.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-test-queue/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/Sender.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/CrossCar.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/LogEntry.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/LogEntry.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Application.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/DirectExchangeApplication.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/test/java/io/github/rexren/rabbitmq/queue/RabbitDirectTest.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java" />
       </list>
     </option>
   </component>
@@ -194,7 +234,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -206,6 +246,73 @@
             <path>
               <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
               <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-test-direct" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq-test-queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,14 +350,6 @@
               <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq-test-queue" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-test-queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -269,20 +368,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream" type="b2602c69:ProjectViewProjectNode" />
-              <item name="stream-funny" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-test-queue" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,6 +384,7 @@
       <recent name="io.github.rexren.rabbitmq.queue" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\projects\my\stream-funny\rabbitmq-test-direct" />
       <recent name="E:\projects\my\stream-funny\rabbitmq-test-queue\src\test" />
     </key>
   </component>
@@ -308,20 +400,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RabbitQueueTest">
+  <component name="RunManager" selected="JUnit.RabbitDirectTest">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.queue.Application" />
+      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.direct.Application" />
       <module name="rabbitmq-test-queue" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.rexren.rabbitmq.queue.*" />
+          <option name="PATTERN" value="io.github.rexren.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RabbitDirectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-test-queue (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.rexren.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.rexren.rabbitmq.direct" />
+      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.direct.RabbitDirectTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RabbitDirectTest.hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-test-queue (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.github.rexren.rabbitmq.direct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="io.github.rexren.rabbitmq.direct" />
+      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.direct.RabbitDirectTest" />
+      <option name="METHOD_NAME" value="hello" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="RabbitMqQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq-test-queue" />
@@ -373,14 +511,14 @@
       <module name="rabbitmq-test-queue" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.github.rexren.rabbitmq.queue.*" />
+          <option name="PATTERN" value="io.github.rexren.rabbitmq.direct.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io.github.rexren.rabbitmq.queue" />
-      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.queue.RabbitQueueTest" />
+      <option name="PACKAGE_NAME" value="io.github.rexren.rabbitmq.direct" />
+      <option name="MAIN_CLASS_NAME" value="io.github.rexren.rabbitmq.direct.RabbitQueueTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -432,15 +570,17 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RabbitMqQueueTest" />
-      <item itemvalue="JUnit.RabbitMqQueueTest (1)" />
       <item itemvalue="Application.Application" />
       <item itemvalue="JUnit.RabbitQueueTest" />
+      <item itemvalue="JUnit.RabbitDirectTest" />
+      <item itemvalue="JUnit.RabbitDirectTest.hello" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RabbitDirectTest" />
+        <item itemvalue="JUnit.RabbitDirectTest.hello" />
         <item itemvalue="JUnit.RabbitQueueTest" />
         <item itemvalue="Application.Application" />
-        <item itemvalue="JUnit.RabbitMqQueueTest (1)" />
         <item itemvalue="JUnit.RabbitMqQueueTest" />
       </list>
     </recent_temporary>
@@ -459,35 +599,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 17h 38m 57s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="RabbitDirectTest - 2019.01.10 at 14h 44m 46s.xml">
+      <configuration name="RabbitDirectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 17h 39m 13s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="RabbitDirectTest - 2019.01.10 at 14h 45m 37s.xml">
+      <configuration name="RabbitDirectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 17h 40m 24s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="RabbitDirectTest - 2019.01.10 at 14h 53m 08s.xml">
+      <configuration name="RabbitDirectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 17h 41m 21s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="RabbitDirectTest - 2019.01.10 at 14h 55m 25s.xml">
+      <configuration name="RabbitDirectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 17h 41m 51s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
+    <history-entry file="RabbitDirectTest - 2019.01.10 at 14h 57m 12s.xml">
+      <configuration name="RabbitDirectTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitMqQueueTest_(1) - 2019.01.09 at 20h 04m 33s.xml">
-      <configuration name="RabbitMqQueueTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RabbitQueueTest - 2019.01.09 at 23h 27m 13s.xml">
+    <history-entry file="RabbitQueueTest - 2019.01.10 at 14h 58m 40s.xml">
       <configuration name="RabbitQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitQueueTest - 2019.01.09 at 23h 27m 45s.xml">
+    <history-entry file="RabbitQueueTest - 2019.01.10 at 15h 04m 01s.xml">
       <configuration name="RabbitQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitQueueTest - 2019.01.09 at 23h 28m 16s.xml">
+    <history-entry file="RabbitQueueTest - 2019.01.10 at 15h 04m 44s.xml">
       <configuration name="RabbitQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitQueueTest - 2019.01.09 at 23h 29m 26s.xml">
+    <history-entry file="RabbitQueueTest - 2019.01.10 at 15h 06m 13s.xml">
       <configuration name="RabbitQueueTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RabbitDirectTest_hello - 2019.01.10 at 15h 09m 04s.xml">
+      <configuration name="RabbitDirectTest.hello" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -502,32 +642,58 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32960597" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.47934783" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34130436" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.4076087" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7399329" visible="true" weight="0.2550586" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" sideWeight="0.26094276" side_tool="true" weight="0.2550586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6923913" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -625,13 +791,6 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/test/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/AmqpConfiguration.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/DelegatingInvocableHandler.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,17 +799,221 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/support/converter/Jackson2JsonMessageConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/listener/adapter/MessageListenerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/annotation/RabbitHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/config/AbstractRabbitListenerContainerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.0.6.RELEASE/spring-rabbit-2.0.6.RELEASE.jar!/org/springframework/amqp/rabbit/config/SimpleRabbitListenerContainerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/io/Serializable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="165" column="30" lean-forward="true" selection-start-line="165" selection-start-column="30" selection-end-line="165" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_151/src.zip!/java/util/UUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="143" column="38" lean-forward="true" selection-start-line="143" selection-start-column="38" selection-end-line="143" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/LogEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/core/BindingBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="177" column="34" selection-start-line="177" selection-start-column="30" selection-end-line="177" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/core/Binding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/core/DirectExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="e#1085#1086#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/DirectExchangeApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/LogEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="11" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.0.6.RELEASE/spring-amqp-2.0.6.RELEASE-sources.jar!/org/springframework/amqp/core/AmqpTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Receiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -659,30 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/main/java/io/github/rexren/rabbitmq/queue/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="47">
+          <caret line="16" column="57" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -691,10 +1032,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-test-queue/src/test/java/io/github/rexren/rabbitmq/queue/RabbitQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        <state relative-caret-position="294">
+          <caret line="21" column="46" lean-forward="true" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/test/java/io/github/rexren/rabbitmq/queue/RabbitDirectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-test-direct/src/main/java/io/github/rexren/rabbitmq/queue/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding>
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
           </folding>
         </state>
       </provider>

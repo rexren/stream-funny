@@ -1,11 +1,9 @@
-package io.github.rexren.rabbitmq.queue;
+package io.github.rexren.rabbitmq.direct;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.rabbit.config.SimpleRabbitListenerContainerFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
-import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
-import org.springframework.amqp.rabbit.listener.adapter.MessageListenerAdapter;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitConfig {
 
 
-    static final String queueName = "rabbit-mq-tset-queue";
+    static final String queueName = "rabbit-mq-tset-direct";
 
     @Bean
     public Queue queue() {
@@ -25,6 +23,7 @@ public class RabbitConfig {
     public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory) {
         RabbitTemplate template = new RabbitTemplate(connectionFactory);
         template.setMessageConverter(new Jackson2JsonMessageConverter());
+        //template.setRoutingKey(queueName);
         return template;
     }
 
